@@ -89,6 +89,12 @@ Chuck in any animals we want to include for the VR game:
 <td>??</td>
 </tr>
   
+<tr>
+<td>Kookaburra</td>
+<td>??</td>
+<td>??</td>
+</tr>
+  
 </tbody>
 </table>
 
