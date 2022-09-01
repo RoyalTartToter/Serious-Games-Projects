@@ -94,6 +94,12 @@ Chuck in any animals we want to include for the VR game:
 <td>??</td>
 <td>??</td>
 </tr>
+
+<tr>
+<td>Funnel-web Spider</td>
+<td>??</td>
+<td>??</td>
+</tr>
   
 </tbody>
 </table>
