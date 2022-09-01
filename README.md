@@ -106,3 +106,25 @@ Chuck in any animals we want to include for the VR game:
 
   
 Chuck in any plants we want to include for the AR game:
+
+<table>
+<thead>
+<tr>
+<th>Plant</th>
+<th>State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eucalyptus</td>
+<td>??</td>
+</tr>
+  
+<tr>
+<td>Buttlebrush</td>
+<td>??</td>
+</tr>
+  
+  
+</tbody>
+</table>
