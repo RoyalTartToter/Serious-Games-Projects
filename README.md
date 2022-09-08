@@ -139,6 +139,15 @@ https://officertravels.com/things-to-know-about-uluru-before-you-go/
 ![image](https://user-images.githubusercontent.com/80034359/189054757-1ea2fff9-9e85-437c-ad69-020c821ca694.png)
 https://www.britannica.com/place/Great-Barrier-Reef
 
+## New South Wales
+![image](https://user-images.githubusercontent.com/80034359/189057914-60fca6ce-989e-4f80-a957-8dbf9de66b7d.png)
+https://pixels.com/featured/opera-house-sunset-rex-wholster.html
+
+## Victoria
+
+## Tasmania
+
+
 ## State Plants
 Chuck in any plants we want to include for the AR game:
 
