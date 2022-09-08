@@ -56,7 +56,7 @@ Chuck in any animals we want to include for the VR game:
 <tr>
   <td>Quokka</td>
   <td>Thick forest, open woodlands</td>
-  <td>??</td>
+  <td>![image](https://user-images.githubusercontent.com/80034359/189046985-54a82a34-32ce-44e4-ac82-2cb54cec0a6b.png)</td>
   <td>Quokkas are herbivorous, with a diet consisting primarily of wild grasses and vegetation</td>
   <td>Quokkas typically live close to sources of fresh water</td>
   <td>The introduction of predators has significantly reduced the number of quokkas in mainland Australia</td>
