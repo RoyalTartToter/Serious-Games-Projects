@@ -6,8 +6,11 @@ Chuck in any animals we want to include for the VR game:
 <thead>
 <tr>
 <th>Animal</th>
-<th>State</th>
 <th>Habitat</th>
+<th>Map</th>
+<th>Hint 1</th>
+<th>Hint 2</th>
+<th>Hint 3</th>
 </tr>
 </thead>
 <tbody>
@@ -42,9 +45,12 @@ Chuck in any animals we want to include for the VR game:
 </tr>
 
 <tr>
-<td>Cassowary</td>
-<td>??</td>
-<td>??</td>
+  <td>Cassowary</td>
+  <td>Rainforest</td>
+  <td>![alt text](https://a-z-animals.com/blog/cassowary-location-guide-where-do-cassowaries-live/)</td>
+  <td>Fruit-centric diet</td>
+  <td>??</td>
+  <td>??</td>
 </tr>
   
 <tr>
