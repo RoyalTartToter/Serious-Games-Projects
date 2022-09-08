@@ -126,7 +126,15 @@ Chuck in any animals we want to include for the VR game:
 </tbody>
 </table>
 
-  
+
+# AR Project
+
+Images for state map:
+
+## Northern Territory
+![image](https://user-images.githubusercontent.com/80034359/189053506-9eac3b7d-c53b-4f09-9819-7aebba5e73a8.png)
+https://officertravels.com/things-to-know-about-uluru-before-you-go/
+
 Chuck in any plants we want to include for the AR game:
 
 <table>
