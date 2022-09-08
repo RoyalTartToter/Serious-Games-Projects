@@ -70,7 +70,7 @@ Chuck in any animals we want to include for the VR game:
   
 <tr>
 <td>Thorny Devil</td>
-<td>??</td>
+<td>Arid shrublands, desert</td>
 <td>??</td>
 </tr>
   
