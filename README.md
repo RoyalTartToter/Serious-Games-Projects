@@ -1,4 +1,4 @@
-# vr-project
+# VR Project
 
 Chuck in any animals we want to include for the VR game:
 
@@ -135,6 +135,11 @@ Images for state map:
 ![image](https://user-images.githubusercontent.com/80034359/189053506-9eac3b7d-c53b-4f09-9819-7aebba5e73a8.png)
 https://officertravels.com/things-to-know-about-uluru-before-you-go/
 
+## Queensland
+![image](https://user-images.githubusercontent.com/80034359/189054757-1ea2fff9-9e85-437c-ad69-020c821ca694.png)
+https://www.britannica.com/place/Great-Barrier-Reef
+
+## State Plants
 Chuck in any plants we want to include for the AR game:
 
 <table>
