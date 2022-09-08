@@ -47,7 +47,7 @@ Chuck in any animals we want to include for the VR game:
 <tr>
   <td>Cassowary</td>
   <td>Rainforest</td>
-  <td>![alt text](https://a-z-animals.com/blog/cassowary-location-guide-where-do-cassowaries-live/)</td>
+  <td>![alt text](https://a-z-animals.com/media/2021/09/CassowaryLocationsAustralia-1024x1024.jpg)</td>
   <td>Fruit-centric diet</td>
   <td>??</td>
   <td>??</td>
