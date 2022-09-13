@@ -6,7 +6,7 @@ Chuck in any animals we want to include for the VR game:
 <thead>
 <tr>
 <th>Animal</th>
-<th>Habitat</th>
+<th>Ecoregion</th>
 <th>Map</th>
 <th>Hint 1</th>
 <th>Hint 2</th>
@@ -15,21 +15,30 @@ Chuck in any animals we want to include for the VR game:
 </thead>
 <tbody>
 <tr>
-<td>Koala</td>
-<td>??</td>
-<td>??</td>
+  <td>Koala</td>
+  <td>Grasslands, Forest, Woodlands</td>
+  <td>![image](https://user-images.githubusercontent.com/80034359/189865300-7e59e64e-b730-4eb4-8263-0350b8e26dd8.png)</td>
+  <td>??</td>
+  <td>??</td>
+  <td>??</td>
 </tr>
   
 <tr>
-<td>Kangaroo</td>
-<td>??</td>
-<td>??</td>
+  <td>Red Kangaroo</td>
+  <td>Desert, Grasslands, Savannas, Shrublands, Forest</td>
+  <td>![image](https://user-images.githubusercontent.com/80034359/189874360-77a403d3-43f3-4e7c-8289-8d593da397a5.png)</td>
+  <td>??</td>
+  <td>??</td>
+  <td>??</td>
 </tr>
   
 <tr>
-<td>Crocodile</td>
-<td>??</td>
-<td>??</td>
+  <td>Saltwater Crocodile</td>
+  <td>Rivers, Marine (Northwest, North, Coral Sea), Coastal</td>
+  <td>![image](https://user-images.githubusercontent.com/80034359/189881799-7be266ce-9199-4fc5-b16f-a16c352bd95c.png)</td>
+  <td>??</td>
+  <td>??</td>
+  <td>??</td>
 </tr>
   
 <tr>
@@ -126,6 +135,11 @@ Chuck in any animals we want to include for the VR game:
 </tbody>
 </table>
 
+Sources:
+* https://animalia.bio/
+* https://www.dcceew.gov.au/environment/land/nrs/science/ibra/australias-ecoregions
+* https://www.ala.org.au/
+* https://soe.environment.gov.au/theme/marine-environment/topic/2016/marine-regions#Marine_regions
 
 # AR Project
 
