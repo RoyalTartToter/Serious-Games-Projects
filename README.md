@@ -179,7 +179,7 @@ Chuck in any plants we want to include for the AR game:
 </tr>
   
 <tr>
-<td>Buttlebrush</td>
+<td>Bottlebrush</td>
 <td>??</td>
 </tr>
   
