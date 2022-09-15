@@ -153,36 +153,23 @@ https://officertravels.com/things-to-know-about-uluru-before-you-go/
 ![image](https://user-images.githubusercontent.com/80034359/189054757-1ea2fff9-9e85-437c-ad69-020c821ca694.png)
 https://www.britannica.com/place/Great-Barrier-Reef
 
+![image](https://user-images.githubusercontent.com/80034359/190332181-ca5684f6-c98f-4bd1-a985-f7d29c6f204c.png)
+https://tropicdays.com.au/great-barrier-reef-trip-coral-types/
+
 ## New South Wales
 ![image](https://user-images.githubusercontent.com/80034359/189057914-60fca6ce-989e-4f80-a957-8dbf9de66b7d.png)
 https://pixels.com/featured/opera-house-sunset-rex-wholster.html
 
+![image](https://user-images.githubusercontent.com/80034359/190328475-38c2bf80-1528-4fce-9aaf-0f5280b1650a.png)
+https://kidadl.com/facts/sydney-opera-house-facts-that-everybody-should-know
+
 ## Victoria
+![image](https://user-images.githubusercontent.com/80034359/190331850-fd336c6c-d04c-4c4b-953a-57bc472eb4c7.png)
+https://www.theguardian.com/australia-news/2016/mar/10/five-new-apostles-found-off-victoria-coast
 
 ## Tasmania
-
+![image](https://user-images.githubusercontent.com/80034359/190332745-ff3f4923-25a0-4b5e-9085-46c35bd14308.png)
+https://www.discoveryholidayparks.com.au/blog/2018/04/09/8_tasmanian_national_parks_that_look_like_paintings
 
 ## State Plants
-Chuck in any plants we want to include for the AR game:
-
-<table>
-<thead>
-<tr>
-<th>Plant</th>
-<th>State</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Eucalyptus</td>
-<td>??</td>
-</tr>
-  
-<tr>
-<td>Bottlebrush</td>
-<td>??</td>
-</tr>
-  
-  
-</tbody>
-</table>
+https://en.wikipedia.org/wiki/List_of_Australian_floral_emblems
