@@ -154,6 +154,7 @@ https://officertravels.com/things-to-know-about-uluru-before-you-go/
 https://www.britannica.com/place/Great-Barrier-Reef
 
 ![image](https://user-images.githubusercontent.com/80034359/190332181-ca5684f6-c98f-4bd1-a985-f7d29c6f204c.png)
+
 https://tropicdays.com.au/great-barrier-reef-trip-coral-types/
 
 ## New South Wales
