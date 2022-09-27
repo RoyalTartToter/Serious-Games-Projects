@@ -9,6 +9,8 @@ public class ChangeSkybox : MonoBehaviour
     void Start()
     {
         RenderSettings.skybox = Skybox;
+        print("worked");
+        System.Console.WriteLine("Worked");
     }
 
     // Update is called once per frame
