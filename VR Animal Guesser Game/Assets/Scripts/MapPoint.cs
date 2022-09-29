@@ -7,7 +7,8 @@ public class MapPoint : MonoBehaviour
     // maintain a reference to the material
     Material m_material;
 
-    GameObject m_animal_entered = null;
+    //GameObject m_animal_entered = null;
+    string m_animal_entered;
 
     // different colours for the point
     Color m_red = new Color(1.0f, 0.2f, 0.2f, 1.0f);
@@ -37,7 +38,9 @@ public class MapPoint : MonoBehaviour
             Debug.Log(other.name);
 
             // track whether the animal stays inside the trigger
-            m_animal_entered = other.gameObject;
+            m_animal_entered = other.name;
+
+            Debug.Log(m_animal_entered);
         }
     }
 
@@ -48,19 +51,26 @@ public class MapPoint : MonoBehaviour
         {
             // change the colour of the map point
             m_material.color = m_red;
-            Debug.Log(other.name);
+            //Debug.Log(other.name);
 
-            m_animal_entered = null;
+            //m_animal_entered = null;
         }
     }
 
     
     public void OnAnimalDrop(GameObject dropped_animal)
     {
+        Debug.Log(dropped_animal.name + "HHHHH");
+        Debug.Log(m_animal_entered + "DDDDD");
+
+        GameObject animal = GameObject.Find(m_animal_entered);
         // if the dropped animal matches the animal currently entered the trigger, then snap the animal to the map point
-        if (m_animal_entered != null && (m_animal_entered.GetInstanceID() == dropped_animal.GetInstanceID()))
+        if (animal != null && GameObject.ReferenceEquals(animal, dropped_animal))
         {
             // add this animal to the list of animals currently belonging to this point
+
+            // remove the animal's rigid body
+            Destroy(dropped_animal.GetComponent<Rigidbody>());
 
             // snap the animal to this point
             dropped_animal.transform.position = gameObject.transform.position;
