@@ -14,6 +14,8 @@ public class MapPoint : MonoBehaviour
     Color m_red = new Color(1.0f, 0.2f, 0.2f, 1.0f);
     Color m_green = new Color(0.2f, 1.0f, 0.2f, 1.0f);
 
+    public int animalNumber = 4;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +55,7 @@ public class MapPoint : MonoBehaviour
             m_material.color = m_red;
             //Debug.Log(other.name);
 
-            //m_animal_entered = null;
+            m_animal_entered = null;
         }
     }
 
@@ -73,6 +75,7 @@ public class MapPoint : MonoBehaviour
             Destroy(dropped_animal.GetComponent<Rigidbody>());
 
             // snap the animal to this point
+            Debug.Log(gameObject.name + "<----THISSSSSSSSSSSSSSSSSSSSSS");
             dropped_animal.transform.position = gameObject.transform.position;
             dropped_animal.transform.SetParent(gameObject.transform);
         }
