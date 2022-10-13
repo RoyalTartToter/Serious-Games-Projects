@@ -10,6 +10,9 @@ public class StreetViewImageLoader : MonoBehaviour
     [SerializeField]
     private double pitch = 0.0;
 
+    //Put your unique Google API key here otherwise you can't pull from streetview
+    private string apiKey = "";
+
     [SerializeField]
     private int width = 2048;
     [SerializeField]
@@ -67,7 +70,7 @@ public class StreetViewImageLoader : MonoBehaviour
 
     public IEnumerator GetStreetViewImage(double latitude, double longitude, double heading, double pitch)
     {
-        string url = "http://maps.googleapis.com/maps/api/streetview?" + "key=AIzaSyCG8IZe9C0weV3WFGZtrQIRF-p14gFwJPY" + "&size=" + width + "x" + height + "&location=" + latitude + "," + longitude + "&heading=" + heading + "&pitch=" + pitch + "&fov=90&sensor=false";
+        string url = "http://maps.googleapis.com/maps/api/streetview?" + "key=" + apiKey + "&size=" + width + "x" + height + "&location=" + latitude + "," + longitude + "&heading=" + heading + "&pitch=" + pitch + "&fov=90&sensor=false";
 
         WWW www = new WWW(url);
         yield return www;
