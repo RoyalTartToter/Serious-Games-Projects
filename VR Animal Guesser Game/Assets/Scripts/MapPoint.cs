@@ -15,6 +15,7 @@ public class MapPoint : MonoBehaviour
     Color m_green = new Color(0.2f, 1.0f, 0.2f, 1.0f);
 
     public int animalNumber = 4;
+    public string correctAnimal = "";
 
     // Start is called before the first frame update
     void Start()
