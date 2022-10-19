@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MapPoint : MonoBehaviour
 {
+
+ 
+    //creating object of Editscore script to access its public methods
+    public EditScore scoreScript;
+
     // maintain a reference to the material
     Material m_material;
 
@@ -20,6 +25,9 @@ public class MapPoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        scoreScript = GameObject.FindGameObjectWithTag("Score").GetComponent<EditScore>();
+        //find object of type Script
+
         // initialize the material
         m_material = GetComponent<Renderer>().material;
         m_material.color = m_red;
@@ -54,6 +62,8 @@ public class MapPoint : MonoBehaviour
         {
             // change the colour of the map point
             m_material.color = m_red;
+
+
             //Debug.Log(other.name);
 
             m_animal_entered = null;
@@ -70,6 +80,11 @@ public class MapPoint : MonoBehaviour
         // if the dropped animal matches the animal currently entered the trigger, then snap the animal to the map point
         if (animal != null && GameObject.ReferenceEquals(animal, dropped_animal))
         {
+
+            scoreScript.noHintsUsed();
+            //add score
+
+            
             // add this animal to the list of animals currently belonging to this point
 
             // remove the animal's rigid body

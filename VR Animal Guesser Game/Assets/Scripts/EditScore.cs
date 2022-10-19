@@ -6,15 +6,44 @@ using TMPro;
 public class EditScore : MonoBehaviour
 {
     private TextMeshProUGUI Score;
-    // Start is called before the first frame update
+    private int scoreNum;
+
+
     void Start()
     {
-       Score = GetComponent<TextMeshProUGUI>();
+         Score = GetComponent<TextMeshProUGUI>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void noHintsUsed()
     {
-        Score.text = "400";
+        scoreNum += 1000;
+        Score.text = scoreNum.ToString();
+        
     }
+
+        public void oneHintUsed()
+    {
+        scoreNum += 800;
+        Score.text = scoreNum.ToString();
+        
+    }
+
+        public void twoHintsUsed()
+    {
+        scoreNum += 600;
+        Score.text = scoreNum.ToString();
+
+        
+    }
+
+        public void threeHintsUsed()
+    {
+        scoreNum += 400;
+        Score.text = scoreNum.ToString();
+        
+    }
+
+    
 }
