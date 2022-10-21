@@ -81,7 +81,6 @@ public class MapPoint : MonoBehaviour
         if (animal != null && GameObject.ReferenceEquals(animal, dropped_animal))
         {
 
-            scoreScript.noHintsUsed();
             //add score
 
             

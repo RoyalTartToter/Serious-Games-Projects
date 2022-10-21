@@ -5,8 +5,13 @@ using UnityEngine;
 public class Pickables : MonoBehaviour
 {
     //public GameObject objectText;
-
+    public EditScore scoreScript;
     public int mapNumber = 4;
+
+    void Start()
+    {
+            scoreScript = GameObject.FindGameObjectWithTag("Score").GetComponent<EditScore>();
+    }
 
     public void SetTextActive(GameObject objectText){
         if(objectText.activeSelf)
@@ -33,7 +38,8 @@ public class Pickables : MonoBehaviour
 
             // remove the animal's rigid body
             //this.GetComponent<Rigidbody>().
-
+            scoreScript.noHintsUsed();
+            //update points
             // snap the animal to this point
             Debug.Log(mapPoint.gameObject.name + "<----THISSSSSSSSSSSSSSSSSSSSSS");
             this.transform.position = mapPoint.gameObject.transform.position;

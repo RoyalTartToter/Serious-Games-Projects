@@ -20,6 +20,7 @@ public class EditScore : MonoBehaviour
     {
         scoreNum += 1000;
         Score.text = scoreNum.ToString();
+        Debug.Log("NoHintsUsed script ran :(");
         
     }
 
