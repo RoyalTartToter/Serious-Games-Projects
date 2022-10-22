@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class MapPoint : MonoBehaviour
 {
-
- 
-    //creating object of Editscore script to access its public methods
-    public EditScore scoreScript;
-
     // maintain a reference to the material
     Material m_material;
 
@@ -25,9 +20,6 @@ public class MapPoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreScript = GameObject.FindGameObjectWithTag("Score").GetComponent<EditScore>();
-        //find object of type Script
-
         // initialize the material
         m_material = GetComponent<Renderer>().material;
         m_material.color = m_red;
@@ -63,15 +55,13 @@ public class MapPoint : MonoBehaviour
             // change the colour of the map point
             m_material.color = m_red;
 
-
             //Debug.Log(other.name);
-
             m_animal_entered = null;
         }
     }
 
     
-    public void OnAnimalDrop(GameObject dropped_animal)
+    /*public void OnAnimalDrop(GameObject dropped_animal)
     {
         Debug.Log(dropped_animal.name + "HHHHH");
         Debug.Log(m_animal_entered + "DDDDD");
@@ -94,6 +84,6 @@ public class MapPoint : MonoBehaviour
             dropped_animal.transform.position = gameObject.transform.position;
             dropped_animal.transform.SetParent(gameObject.transform);
         }
-    }
+    }*/
 
 }
