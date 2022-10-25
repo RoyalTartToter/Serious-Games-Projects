@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+using TMPro;
 
 public class Pickables : MonoBehaviour
 {
     public int mapNumber = 4, numHintsUsed = 0;
-
     public MapPoint defaultPosition;
     public MapPoint currentlyInMapPoint;
+    public bool hasBeenPlaced = false;
 
     [TextArea (15, 20)]
     public string hintOne, hintTwo, hintThree;
@@ -16,6 +18,11 @@ public class Pickables : MonoBehaviour
     void Start()
     {
 
+    }
+
+    private void Update()
+    {
+        
     }
 
     public void SetTextActive(GameObject objectText){
@@ -34,6 +41,7 @@ public class Pickables : MonoBehaviour
     public void BeHeld()
     {
         GameManager.instance.currentlyHeld = this;
+        GameManager.instance.isHoldingSomething = true;
         switch (numHintsUsed)
         {
             case 0:
@@ -77,32 +85,55 @@ public class Pickables : MonoBehaviour
         }
     }
 
+    public void MoveToDefaultPosition()
+    {
+        this.transform.position = defaultPosition.gameObject.transform.position;
+        this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+    }
+
     public void OnAnimalDrop()
     {
-        if (currentlyInMapPoint != defaultPosition)
+        if (currentlyInMapPoint != defaultPosition && !hasBeenPlaced && !currentlyInMapPoint.hasBeenUsed)
         {
             // if the dropped animal matches the animal currently entered the trigger, then snap the animal to the map point
             if (currentlyInMapPoint.animalNumber == mapNumber)
             {
-                // add this animal to the list of animals currently belonging to this point
+                //Gives feedback in the UI that the animal was placed properly
+                GameManager.instance.justPerformedText.text = gameObject.name + " has been snapped to correct position!\n";
+
+                //Calculates the score based on hints used
                 GameManager.instance.CalculateScore();
 
-                // snap the animal to this point
-                Debug.Log(currentlyInMapPoint.gameObject.name + "has been snapped to correct position");
+                transform.rotation = Quaternion.identity;
+
+                //Stops the pickable from being interactable
+                Destroy(gameObject.GetComponent<XRGrabInteractable>());
+                Destroy(gameObject.GetComponent<Rigidbody>());
+                //Finds the snapping point child of the MapPoint and moves the pickable into that position
                 this.transform.position = currentlyInMapPoint.gameObject.transform.Find("Snapping Point").position;
-                this.transform.SetParent(currentlyInMapPoint.gameObject.transform);
+
+
+                //A failsafe boolean to prevent multiple points from the same object
+                hasBeenPlaced = true;
+                GameManager.instance.CheckForGameOver();
+
+                currentlyInMapPoint.hasBeenUsed = true;
+                currentlyInMapPoint.m_material.color = Color.green;
             }
 
             if (currentlyInMapPoint.animalNumber != mapNumber)
             {
-                Debug.Log(currentlyInMapPoint.gameObject.name + "has been snapped to wrong position");
+                GameManager.instance.justPerformedText.text = gameObject.name + " has been snapped to wrong position!\n No points were awarded.";
+                transform.rotation = Quaternion.identity;
+                Destroy(gameObject.GetComponent<XRGrabInteractable>());
+                Destroy(gameObject.GetComponent<Rigidbody>());
                 this.transform.position = currentlyInMapPoint.gameObject.transform.Find("Snapping Point").position;
-                this.transform.SetParent(currentlyInMapPoint.gameObject.transform);
+
+                GameManager.instance.CheckForGameOver();
+                hasBeenPlaced = true;
+                currentlyInMapPoint.hasBeenUsed = true;
+                currentlyInMapPoint.m_material.color = Color.red;
             }
-        }
-        else if (currentlyInMapPoint == defaultPosition)
-        {
-            this.transform.position = defaultPosition.gameObject.transform.position;
         }
     }
     
