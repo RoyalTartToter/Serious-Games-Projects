@@ -76,6 +76,14 @@ public class Pickables : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Map Point")
+        {
+            currentlyInMapPoint = other.GetComponent<MapPoint>();
+        }
+    }
+
     private void OnTriggerExit(Collider other)
     {
         // if the user brings an animal model back out of range of the map point

@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class OutOfBounds : MonoBehaviour
 {
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        other.GetComponent<Pickables>().MoveToDefaultPosition();
+        if (other.tag == "Animal")
+        {
+            other.GetComponent<Pickables>().MoveToDefaultPosition();
+        }
+        else if(other.tag == "Player")
+        {
+            other.GetComponent<PlayerController>().MoveBackToDefaultPosition();
+        }
     }
 }
