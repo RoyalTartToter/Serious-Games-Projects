@@ -8,21 +8,34 @@ using TMPro;
 public class Pickables : MonoBehaviour
 {
     public int mapNumber = 4, numHintsUsed = 0;
+    public Rigidbody pickableRigidbody;
     public MapPoint defaultPosition;
     public MapPoint currentlyInMapPoint;
-    public bool hasBeenPlaced = false;
+    public bool hasBeenPlaced = false, isFrozen = true;
 
     [TextArea (15, 20)]
     public string hintOne, hintTwo, hintThree;
 
     void Start()
     {
-
+        pickableRigidbody = gameObject.GetComponent<Rigidbody>();
     }
 
     private void Update()
     {
-        
+        BeFrozen();
+    }
+
+    public void BeFrozen()
+    {
+        if (isFrozen)
+        {
+            pickableRigidbody.constraints = RigidbodyConstraints.FreezeAll;
+        }
+        else if (!isFrozen)
+        {
+            pickableRigidbody.constraints = RigidbodyConstraints.None;
+        }
     }
 
     public void SetTextActive(GameObject objectText){
@@ -40,6 +53,7 @@ public class Pickables : MonoBehaviour
 
     public void BeHeld()
     {
+        isFrozen = false;
         GameManager.instance.currentlyHeld = this;
         GameManager.instance.isHoldingSomething = true;
         switch (numHintsUsed)
@@ -116,7 +130,7 @@ public class Pickables : MonoBehaviour
 
                 //Stops the pickable from being interactable
                 Destroy(gameObject.GetComponent<XRGrabInteractable>());
-                Destroy(gameObject.GetComponent<Rigidbody>());
+                isFrozen = true;
                 //Finds the snapping point child of the MapPoint and moves the pickable into that position
                 this.transform.position = currentlyInMapPoint.gameObject.transform.Find("Snapping Point").position;
 
@@ -128,20 +142,23 @@ public class Pickables : MonoBehaviour
                 currentlyInMapPoint.hasBeenUsed = true;
                 currentlyInMapPoint.m_material.color = Color.green;
             }
-
-            if (currentlyInMapPoint.animalNumber != mapNumber)
+            else if (currentlyInMapPoint.animalNumber != mapNumber)
             {
-                GameManager.instance.justPerformedText.text = gameObject.name + " has been snapped to wrong position!\n No points were awarded.";
+                GameManager.instance.justPerformedText.text = gameObject.name + " was placed in the wrong position!\n No points were awarded.";
                 transform.rotation = Quaternion.identity;
                 Destroy(gameObject.GetComponent<XRGrabInteractable>());
-                Destroy(gameObject.GetComponent<Rigidbody>());
-                this.transform.position = currentlyInMapPoint.gameObject.transform.Find("Snapping Point").position;
+                isFrozen = true;
+                this.transform.position = GameManager.instance.allMapPoints[this.mapNumber - 1].gameObject.transform.Find("Snapping Point").position;
 
                 GameManager.instance.CheckForGameOver();
                 hasBeenPlaced = true;
                 currentlyInMapPoint.hasBeenUsed = true;
                 currentlyInMapPoint.m_material.color = Color.red;
             }
+        }
+        else
+        {
+            isFrozen = true;
         }
     }
     

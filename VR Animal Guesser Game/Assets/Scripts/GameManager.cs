@@ -8,10 +8,15 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public StreetViewImageLoader initalSkybox;
+    public GameObject grassFloor, grassFloorInvis;
     public TextMeshProUGUI scoreText, hintOneText, hintTwoText, hintThreeText, currentHeldText, justPerformedText, currentMapPoint;
+
     public int scoreNum, hintsUsed;
-    public bool isHoldingSomething = false;
+    public bool isHoldingSomething = false, isFloorInvis = false;
+
     public Pickables currentlyHeld;
+    public MapPoint[] allMapPoints = new MapPoint[15];
     public int numberOfGuesses = 0, maxGuesses = 15;
 
     //GameFinished variables
@@ -24,6 +29,7 @@ public class GameManager : MonoBehaviour
         instance = this;
         gameSessionPanel.SetActive(true);
         gameFinishedPanel.SetActive(false);
+        initalSkybox.CreateStreetView();
     }
 
     // Update is called once per frame
@@ -97,6 +103,21 @@ public class GameManager : MonoBehaviour
                 scoreNum += 40;
                 justPerformedText.text = "3 hints were used and 40 points were awarded!";
                 break;
+        }
+    }
+
+    public void MakeFloorTransparent()
+    {
+        if (isFloorInvis)
+        {
+            grassFloor.gameObject.SetActive(true);
+            grassFloorInvis.gameObject.SetActive(false);
+        }
+        else if (!isFloorInvis)
+        {
+            grassFloorInvis.gameObject.SetActive(true);
+            grassFloor.gameObject.SetActive(false);
+            
         }
     }
 
