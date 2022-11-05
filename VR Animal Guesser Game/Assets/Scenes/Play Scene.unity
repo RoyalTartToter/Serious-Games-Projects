@@ -3460,7 +3460,7 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 469464656}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: "The  diet of the cassowary consists primarily of fruits from fallen trees.\t"
+  hintOne: "The diet of the cassowary consists primarily of fruits from fallen trees.\t"
   hintTwo: Cassowaries are found primarily in rainforest areas.
   hintThree: Cassowaries are found only in the north of Australia.
 --- !u!114 &236002678
@@ -14181,8 +14181,10 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 1605376130}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Koala Hint One Unlocked
-  hintTwo: Koala Hint Two Unlocked
+  hintOne: The name 'Koala' comes from the aboriginie word meaning 'No Water' as
+    they get all their moisture from the leaves of eucalyptus trees.
+  hintTwo: Their main habitat of choice is forests, and they like to go high into
+    the tree's.
   hintThree: Koala Hint Three Unlocked
 --- !u!114 &1095315422
 MonoBehaviour:
@@ -15762,9 +15764,9 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 1964612968}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Dingo Hint One Unlocked.
-  hintTwo: Dingo Hint Two Unlocked.
-  hintThree: Dingo Hint Three Unlocked.
+  hintOne: Dingo's inhabit many areas but are not found in south-eastern Australia.
+  hintTwo: The Dingo can hunt animals up to the size of the Red Kangaroo
+  hintThree: Dingo's are most common in the inner part of Australia
 --- !u!114 &1152603852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16859,8 +16861,8 @@ MonoBehaviour:
   hasBeenPlaced: 0
   isFrozen: 1
   hintOne: The box jellyfish is an aquatic animal
-  hintTwo: The box jellyfish is located in northern Australia
-  hintThree: The box jellyfish lives close to Queensland
+  hintTwo: The box jellyfish is located in the coastal waters of northern Australia
+  hintThree: Box jellyfish habitat queensland coasts
 --- !u!65 &1233921530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25430,9 +25432,11 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 1599120351}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Manta Ray Hint One Unlocked.
-  hintTwo: Manta Ray Hint Two Unlocked.
-  hintThree: Manta Ray Hint Three Unlocked.
+  hintOne: The Manta Ray is an aquatic animal
+  hintTwo: Manta Ray's are located around the world but in Australia are located
+    in northern Australia tropical and subtropical waters
+  hintThree: Manta Ray's spend time near the surface duriong the day but go deeper
+    during night time
 --- !u!65 &1678311976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26256,9 +26260,10 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 348018324}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Thorny Devil Hint One Unlocked.
-  hintTwo: Thorny Devil Hint Two Unlocked.
-  hintThree: Thorny Devil Hint Three Unlocked.
+  hintOne: Most thorny devils are brown/tan in color to disguise themself with the
+    enviroment
+  hintTwo: The Thorny Devils primary habitat is scrubland and desert
+  hintThree: Thorny devils are commonly found in central Australia
 --- !u!114 &1723638154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29099,9 +29104,10 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 12659398}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Crocodile Hint One Unlocked
-  hintTwo: Crocodile Hint Two Unlocked
-  hintThree: Crocodile Hint Three Unlocked
+  hintOne: Crocodiles can only live in warm areas and will often vacate a habitat
+    if it gets too cold
+  hintTwo: Saltwater crocodiles inhabit coastal regions and rivers in Australia
+  hintThree: The Saltwater Crocodile is located in Northern Australia
 --- !u!65 &1944207889
 BoxCollider:
   m_ObjectHideFlags: 0
