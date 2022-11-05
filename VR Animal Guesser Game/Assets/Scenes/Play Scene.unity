@@ -14185,7 +14185,7 @@ MonoBehaviour:
     they get all their moisture from the leaves of eucalyptus trees.
   hintTwo: Their main habitat of choice is forests, and they like to go high into
     the tree's.
-  hintThree: Koala Hint Three Unlocked
+  hintThree: Koala's can be found in Eastern Australia.
 --- !u!114 &1095315422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18180,9 +18180,10 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 65333138}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Quokka Hint One Unlocked.
-  hintTwo: Quokka Hint Two Unlocked.
-  hintThree: Quokka Hint Three Unlocked.
+  hintOne: Quokka's are vegetarions whos diet consits of primarily different grasses
+  hintTwo: "Quokka's are extremely adorable\nOK here is your actual hint:\nQuokka's
+    are found near the coast \t\n"
+  hintThree: Quokka's are often found near swamps
 --- !u!114 &1326350331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20894,9 +20895,9 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 499655999}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Wombat Hint One Unlocked.
-  hintTwo: Wombat Hint Two Unlocked.
-  hintThree: Wombat Hint Three Unlocked.
+  hintOne: Wombats are herbivores and eat vegetation such as roots, grasses and herbs.
+  hintTwo: Wombats are not commonly found in northern Australia
+  hintThree: Wombats enjoy hilly or mountanous coastal areas
 --- !u!114 &1473383240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24754,9 +24755,9 @@ MonoBehaviour:
   currentlyInMapPoint: {fileID: 1933621612}
   hasBeenPlaced: 0
   isFrozen: 1
-  hintOne: Echidna Hint One Unlocked.
-  hintTwo: Echidna Hint Two Unlocked.
-  hintThree: Echidna Hint Three Unlocked.
+  hintOne: Echidnas feed on termites and ants
+  hintTwo: Scrublands are an area that Echidnas like to habitat
+  hintThree: Echidnas can be found in Southern Australia
 --- !u!114 &1666037406
 MonoBehaviour:
   m_ObjectHideFlags: 0
