@@ -109,8 +109,13 @@ public class Pickables : MonoBehaviour
 
     public void MoveToDefaultPosition()
     {
-        this.transform.position = defaultPosition.gameObject.transform.position;
-        this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+        if (!hasBeenPlaced)
+        {
+            this.transform.position = defaultPosition.gameObject.transform.position;
+            this.transform.rotation = defaultPosition.transform.rotation;
+            this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+        }
+
     }
 
     public void OnAnimalDrop()
@@ -152,8 +157,8 @@ public class Pickables : MonoBehaviour
 
                 GameManager.instance.CheckForGameOver();
                 hasBeenPlaced = true;
-                currentlyInMapPoint.hasBeenUsed = true;
-                currentlyInMapPoint.m_material.color = Color.red;
+                GameManager.instance.allMapPoints[this.mapNumber - 1].hasBeenUsed = true;
+                GameManager.instance.allMapPoints[this.mapNumber - 1].m_material.color = Color.red;
             }
         }
         else

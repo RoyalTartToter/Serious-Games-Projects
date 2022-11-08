@@ -110,14 +110,16 @@ public class GameManager : MonoBehaviour
     {
         if (isFloorInvis)
         {
-            grassFloor.gameObject.SetActive(true);
             grassFloorInvis.gameObject.SetActive(false);
+            grassFloor.gameObject.SetActive(true);
+            isFloorInvis = false;
+            
         }
         else if (!isFloorInvis)
         {
             grassFloorInvis.gameObject.SetActive(true);
             grassFloor.gameObject.SetActive(false);
-            
+            isFloorInvis = true;
         }
     }
 
