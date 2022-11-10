@@ -1108,17 +1108,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62667244}
-  m_LocalRotation: {x: 0.00042736187, y: 0.05790651, z: 0.0020880974, w: 0.99831975}
+  m_LocalRotation: {x: 0.0021118433, y: 0.99999774, z: -0.0003054098, w: 0.00000064497914}
   m_LocalPosition: {x: 0, y: 0, z: 0.012}
   m_LocalScale: {x: 0.019106403, y: 0.034786474, z: 0.05142591}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1503380058}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.035, y: 180, z: 0.242}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.102, y: 0.074}
+  m_AnchoredPosition: {x: -0.228, y: 0.075}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62667246
@@ -1220,10 +1220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The quokka is a marsupial about the same size as a domestic cat. They
-    can weigh up to 5kg and can be up to 84 cm long. Quokkas are known to have very
-    little fear of humans, and are known on the internet as \u201Cthe worlds happiest
-    animals\u201D."
+  m_text: The quokka is a marsupial about the same size as a domestic cat.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1286,7 +1283,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 7.2432184, w: 2.4025564}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -1995,6 +1992,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Echidna
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e0adfd315b34df4cac7cce873fe5edb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e0adfd315b34df4cac7cce873fe5edb, type: 3}
@@ -3648,7 +3650,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198827780}
   m_LocalRotation: {x: 0.0022065125, y: -0.7654966, z: 0.0044827093, w: 0.6434206}
-  m_LocalPosition: {x: 0, y: 0, z: 0.036}
+  m_LocalPosition: {x: 0, y: 0, z: 0.048}
   m_LocalScale: {x: 0.0073427483, y: 0.013355155, z: 0.01973321}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3657,7 +3659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.006, y: 0.029}
+  m_AnchoredPosition: {x: -0.0083, y: 0.0487}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198827782
@@ -3759,10 +3761,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The short-beaked echidna is the only species of echidna found in Australia.
-    It is a small egg-laying mammal, or monotremes, distinguished by its coat of
-    sharp spines and it's long snout. They typically weigh anywhere between 2 - 7
-    kilograms, and are often no more than 45 centimetres in length.
+  m_text: The short-beaked echidna is one of the only two egg laying mammals in the
+    world.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3825,7 +3825,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 7.50524, y: 0.40327597, z: 0, w: 1.3781675}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -3912,7 +3912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.08, y: 0.06}
+  m_AnchoredPosition: {x: -0.171, y: 0.056}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207928590
@@ -4014,11 +4014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The emu is a large flightless bird found only in Australia. They are the
-    second tallest bird in the world, reaching  an average height of around 1.75
-    meters. They are solid swimmers, and can run at speeds up to 50 kilometers an
-    hour. In the early 1900s, Australian settlers waged a war on emus in an effort
-    to thin their numbers. The emus won.
+  m_text: The emu is a large flightless bird found only in Australia.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4081,7 +4077,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 9.342395, w: 3.175271}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -6241,7 +6237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0619, y: 0.0622}
+  m_AnchoredPosition: {x: -0.126, y: 0.1}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330054418
@@ -6343,8 +6339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The red kangaroo is the largest species of all kangaroos. These kangaroos
-    can have a total length of 2.8 metres, and weigh up to 90kg.
+  m_text: The red kangaroo is the largest species of all kangaroos.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6407,7 +6402,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 4.566538, w: 2.1943874}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -8058,6 +8053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Throny_Devil
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56568ac8cf8f52c43bc73abfe8cd3eba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56568ac8cf8f52c43bc73abfe8cd3eba, type: 3}
@@ -11168,6 +11168,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kookaburra
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b7c0418cb72286e43b516927ab23f409,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7c0418cb72286e43b516927ab23f409, type: 3}
 --- !u!1 &691476815 stripped
@@ -13065,17 +13070,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775856177}
-  m_LocalRotation: {x: -5.093179e-11, y: 0.0047260527, z: -2.3286506e-10, w: 0.99998885}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.00951927, y: 0.016278239, z: 0.021554425}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1465901305}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.047, y: 0.023}
+  m_AnchoredPosition: {x: -0.1203, y: 0.0305}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775856179
@@ -13177,10 +13182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The dingo is a wild dog and is native to Australia. They are the only
-    species of the family canid (family of dogs including wolves and foxes), that
-    are native to Australia. The average length for a male dingo is 125cm and their
-    average weight is 15.8kg. '
+  m_text: The dingo is a wild dog that is native to Australia.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13243,7 +13245,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 9.171801, w: 3.0135565}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -14422,7 +14424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.08, y: 0.06}
+  m_AnchoredPosition: {x: 0.15, y: 0.06}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853423331
@@ -14524,9 +14526,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The koala is one of the most distinctive icons of Australian wildlife.
-    These marsupials are characterised by their stocky build and large fluffy ears.
-    They often sleep for up to 18 hours a day, and live very sedentary lifestyles.
+  m_text: 'This is a Koala, they are characterised by their stocky build and large
+    fluffy ears. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14589,7 +14590,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 6.5918117, w: 1.3987939}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -15756,7 +15757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.08, y: 0.06}
+  m_AnchoredPosition: {x: -0.1512, y: 0.0847}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905498028
@@ -15858,10 +15859,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The cassowary is a large flightless bird. There are 4 different species
-    of Cassowary, with one being extinct. The most common type, the \u201Csouthern
-    cassowary\u201D, is tied as the third heaviest bird, with the female averaging
-    58.5kg."
+  m_text: The cassowary is a large flightless bird. There are 4 different species
+    of Cassowary, with one being extinct.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15924,7 +15923,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 7.6547227, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -17351,17 +17350,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968067976}
-  m_LocalRotation: {x: 4.6561266e-10, y: 0.02042493, z: 2.8628272e-10, w: 0.9997914}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.0004}
   m_LocalScale: {x: 0.0018532275, y: 0.0036693837, z: 0.005419892}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 691476819}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0101, y: 0.0095}
+  m_AnchoredPosition: {x: -0.0248, y: 0.0165}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968067978
@@ -17464,9 +17463,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The laughing kookaburra is a large kingfisher bird famous for it\u2019s
-    distinctive cackling call. These kookaburras do not migrate, and can live for
-    up to 20 years. They are relatively well acclimatised to humans, and will occasionally
-    snatch food directly from a person\u2019s hand. "
+    distinctive cackling call."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17529,7 +17526,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 7.303177, w: 2.0737758}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -21018,7 +21015,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169111005}
   m_LocalRotation: {x: 0.004784658, y: -0.024116313, z: 0.0014595111, w: 0.9996967}
-  m_LocalPosition: {x: 0, y: 0, z: 0.003}
+  m_LocalPosition: {x: 0, y: 0, z: 0.008}
   m_LocalScale: {x: 0.011936318, y: 0.02171174, z: 0.032083247}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21027,7 +21024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.066, y: 0.047}
+  m_AnchoredPosition: {x: 0.161, y: 0.075}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169111007
@@ -21130,9 +21127,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: The common wombat is a short and stocky marsupial found only in Australia.
-    They are typically nocturnal, and prior to the introduction of wild dogs and
-    foxes, had no natural predators. It is classed as the largest burrowing herbivorous
-    mammal in the world.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21195,7 +21189,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 6.144804, w: 2.56991}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -23245,6 +23239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fairy Penguin
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18a81a0777fc9c141bda1833d091a021,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18a81a0777fc9c141bda1833d091a021, type: 3}
 --- !u!1 &1304439805 stripped
@@ -24328,7 +24327,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336944930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.0034494647, y: 0.006276727, z: 0.009272753}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24337,7 +24336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.02, y: 0.0148}
+  m_AnchoredPosition: {x: 0.0506, y: 0.0148}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336944932
@@ -24439,14 +24438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The box jellyfish gets its name due to the cube like shape of its body.
-    Some species produce venom, and over 51 species have currently been identified.
-    Box jellyfish have been called by publications, the world''s deadliest animal.
-
-    Don''t
-    worry this virtual one is not venomous and is pretty cute.
-
-'
+  m_text: The box jellyfish gets its name due to the cube like shape of its body.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24509,7 +24501,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 7.41102, w: 2.3323808}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -25039,7 +25031,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c10883391b65db4e8ba79bd3e8d7e7a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.31273702
+      value: -0.034621462
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c10883391b65db4e8ba79bd3e8d7e7a,
         type: 3}
@@ -25049,7 +25041,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c10883391b65db4e8ba79bd3e8d7e7a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9498398
+      value: 0.9994005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c10883391b65db4e8ba79bd3e8d7e7a,
         type: 3}
@@ -25064,7 +25056,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c10883391b65db4e8ba79bd3e8d7e7a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 216.448
+      value: 183.968
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c10883391b65db4e8ba79bd3e8d7e7a,
         type: 3}
@@ -25649,7 +25641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0164, y: -0}
+  m_AnchoredPosition: {x: 0.042, y: -0}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1403435799
@@ -25752,10 +25744,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: The platypus has gained worldwide recognition for it's strange and unique
-    appearance. It features a flat, streamlined body and tail, a large bill, and
-    webbed feet, and is one of only two Australian monotremes - mammals that lay
-    eggs. Males have a venomous spike on their back feet, which is excruciatingly
-    painful yet nonlethal for humans.
+    appearance.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25818,7 +25807,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 5.5730996, w: 2.0720918}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -26673,6 +26662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dingo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 491022ac4e3dbf54e8f92b7f69aee357,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 491022ac4e3dbf54e8f92b7f69aee357, type: 3}
 --- !u!1 &1465901300 stripped
@@ -27456,7 +27450,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496095321}
   m_LocalRotation: {x: -0, y: -0.70710665, z: -0, w: 0.707107}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0208}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0492}
   m_LocalScale: {x: 0.0039344314, y: 0.007159186, z: 0.010576428}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27567,8 +27561,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The saltwater crocodile is considered the largest living reptile on our
-    planet. They can grow up to 6 metres and weigh up to 1,300 kg.
+  m_text: 'The saltwater crocodile is considered the largest living reptile on our
+    planet. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27631,7 +27625,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 6.0178666, w: 2.326545}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -27900,6 +27894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Quokka
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2b0242e9d48d0f749bc54690a1b7b04e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0242e9d48d0f749bc54690a1b7b04e, type: 3}
@@ -29651,7 +29650,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561125491}
   m_LocalRotation: {x: 0.001308383, y: -0.99306417, z: -0.0018471599, w: 0.11755183}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0078}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0228}
   m_LocalScale: {x: 0.00629507, y: 0.011376568, z: 0.016694754}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29660,7 +29659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0325, y: 0.0215}
+  m_AnchoredPosition: {x: -0.0957, y: 0.039}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1561125493
@@ -29763,9 +29762,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The thorny devil is a lizard that colloquially goes by many other names
-    such as \u201Cthorny lizard\u201D, and \u201Cmountain devil\u201D. It can grow
-    up to 21 cm and has its signature thorns over its body to protect it from predators.
-    It also features a fake head made from soft tissue to trick predators."
+    such as \u201Cthorny lizard\u201D, and \u201Cmountain devil\u201D."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29828,7 +29825,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 4.712975, w: 1.5811551}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -37069,7 +37066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0536, y: 0.104}
+  m_AnchoredPosition: {x: 0.0738, y: 0.104}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1949899021
@@ -37171,8 +37168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The manta rays are part of the eagle ray family and can grow up to 7 metres.
-    The manta ray family is made up of 2 species.
+  m_text: 'The manta rays are part of the eagle ray family and can grow up to 7 metres. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -37235,7 +37231,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 7.209124, w: 1.0693}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -38347,6 +38343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wombat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1dd5454a90993a041b5c29ede8bcd688,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dd5454a90993a041b5c29ede8bcd688, type: 3}
@@ -39864,7 +39865,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097114833}
   m_LocalRotation: {x: -2.2768575e-10, y: 0.7071067, z: 1.1127045e-10, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0.057}
+  m_LocalPosition: {x: 0, y: 0, z: -0.192}
   m_LocalScale: {x: 0.013367189, y: 0.024320995, z: 0.035926607}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39873,7 +39874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 0.05}
+  m_AnchoredPosition: {x: -0, y: 0.072}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2097114835
@@ -39975,8 +39976,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The fairy penguin, also known as the little blue penguin, is the smallest
-    penguin in the world, reaching maximum heights of only around 40 centimetres. '
+  m_text: 'The fairy penguin, is the smallest penguin in the world with a maximum
+    height of 40 centimetres. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -40039,7 +40040,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.40327597, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.40327597, z: 4.940107, w: 1.6466589}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
