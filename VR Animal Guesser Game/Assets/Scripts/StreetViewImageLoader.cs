@@ -11,7 +11,7 @@ public class StreetViewImageLoader : MonoBehaviour
     private double pitch = 0.0;
 
     //Put your unique Google API key here otherwise you can't pull from streetview
-    private string apiKey = "AIzaSyAS5_wYXLqWdSgJ6xXKJWvAhSpqthQooxk";
+    private string apiKey = "";
 
     [SerializeField]
     private int width = 2048;
