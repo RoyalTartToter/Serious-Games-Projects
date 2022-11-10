@@ -1220,7 +1220,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a cute little quokka.
+  m_text: "The quokka is a marsupial about the same size as a domestic cat. They
+    can weigh up to 5kg and can be up to 84 cm long. Quokkas are known to have very
+    little fear of humans, and are known on the internet as \u201Cthe worlds happiest
+    animals\u201D."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3756,8 +3759,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is an echidna, along with the platypus they are the only two egg laying
-    mammals.
+  m_text: The short-beaked echidna is the only species of echidna found in Australia.
+    It is a small egg-laying mammal, or monotremes, distinguished by its coat of
+    sharp spines and it's long snout. They typically weigh anywhere between 2 - 7
+    kilograms, and are often no more than 45 centimetres in length.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4009,7 +4014,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is an emu, not to be mistaken for an emo.
+  m_text: The emu is a large flightless bird found only in Australia. They are the
+    second tallest bird in the world, reaching  an average height of around 1.75
+    meters. They are solid swimmers, and can run at speeds up to 50 kilometers an
+    hour. In the early 1900s, Australian settlers waged a war on emus in an effort
+    to thin their numbers. The emus won.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6334,7 +6343,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Kangaroon, don't box it.
+  m_text: The red kangaroo is the largest species of all kangaroos. These kangaroos
+    can have a total length of 2.8 metres, and weigh up to 90kg.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13167,7 +13177,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a dingo, don't let it near your baby.
+  m_text: 'The dingo is a wild dog and is native to Australia. They are the only
+    species of the family canid (family of dogs including wolves and foxes), that
+    are native to Australia. The average length for a male dingo is 125cm and their
+    average weight is 15.8kg. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14511,7 +14524,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Koala it is grey and fat.
+  m_text: The koala is one of the most distinctive icons of Australian wildlife.
+    These marsupials are characterised by their stocky build and large fluffy ears.
+    They often sleep for up to 18 hours a day, and live very sedentary lifestyles.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15843,7 +15858,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Cassowary, pretty much a living dinosaur.
+  m_text: "The cassowary is a large flightless bird. There are 4 different species
+    of Cassowary, with one being extinct. The most common type, the \u201Csouthern
+    cassowary\u201D, is tied as the third heaviest bird, with the female averaging
+    58.5kg."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17445,7 +17463,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a kookaburra, I can already here it laughing at you.
+  m_text: "The laughing kookaburra is a large kingfisher bird famous for it\u2019s
+    distinctive cackling call. These kookaburras do not migrate, and can live for
+    up to 20 years. They are relatively well acclimatised to humans, and will occasionally
+    snatch food directly from a person\u2019s hand. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21108,7 +21129,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a wombat, a fat little marsupial.
+  m_text: The common wombat is a short and stocky marsupial found only in Australia.
+    They are typically nocturnal, and prior to the introduction of wild dogs and
+    foxes, had no natural predators. It is classed as the largest burrowing herbivorous
+    mammal in the world.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24415,7 +24439,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Box Jellyfish, it's like a peanut butter and jelly just dangerous.
+  m_text: 'The box jellyfish gets its name due to the cube like shape of its body.
+    Some species produce venom, and over 51 species have currently been identified.
+    Box jellyfish have been called by publications, the world''s deadliest animal.
+
+    Don''t
+    worry this virtual one is not venomous and is pretty cute.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25720,7 +25751,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Platypus, a living chimera.
+  m_text: The platypus has gained worldwide recognition for it's strange and unique
+    appearance. It features a flat, streamlined body and tail, a large bill, and
+    webbed feet, and is one of only two Australian monotremes - mammals that lay
+    eggs. Males have a venomous spike on their back feet, which is excruciatingly
+    painful yet nonlethal for humans.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27532,7 +27567,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Crocodile it is very dangerous.
+  m_text: The saltwater crocodile is considered the largest living reptile on our
+    planet. They can grow up to 6 metres and weigh up to 1,300 kg.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29726,7 +29762,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a thorny devil, they are the echidnas of the reptile family.
+  m_text: "The thorny devil is a lizard that colloquially goes by many other names
+    such as \u201Cthorny lizard\u201D, and \u201Cmountain devil\u201D. It can grow
+    up to 21 cm and has its signature thorns over its body to protect it from predators.
+    It also features a fake head made from soft tissue to trick predators."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -37132,7 +37171,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a Manta Ray, R.I.P Steve Irwin.
+  m_text: The manta rays are part of the eagle ray family and can grow up to 7 metres.
+    The manta ray family is made up of 2 species.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39935,7 +39975,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a fairy penguin, it's not to scale they are actually way smaller.
+  m_text: 'The fairy penguin, also known as the little blue penguin, is the smallest
+    penguin in the world, reaching maximum heights of only around 40 centimetres. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
